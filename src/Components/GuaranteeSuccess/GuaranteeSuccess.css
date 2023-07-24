@@ -1,0 +1,24 @@
+.guarantee-main-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.guarantee-main-div p{
+    width: 300px;
+}
+
+.guarantee-content{
+    padding: 30px;
+    background-color: #F7F8FA;
+
+}
+
+
+.guarantee-image{
+    background-color: #020D53;
+    width: 500px;
+    /* height: 100px; */
+}

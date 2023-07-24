@@ -1,0 +1,22 @@
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: #020d53;
+}
+
+.why-students{
+    color: white;
+}
+
+.access{
+    border: 2px solid #f0f600;
+    border-radius: 9.45px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.access p{
+    color: #f0f600;
+}

@@ -1,0 +1,9 @@
+.align-div-triple-guarantee{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.align-div-triple-guarantee img{
+    width: 250px;
+}

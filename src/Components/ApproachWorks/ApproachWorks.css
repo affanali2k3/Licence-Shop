@@ -1,0 +1,9 @@
+.approach-works-main-div{
+    background-color: #020d53;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}

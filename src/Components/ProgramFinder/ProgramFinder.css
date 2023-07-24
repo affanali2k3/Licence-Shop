@@ -1,0 +1,25 @@
+.align-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.program-finder-box{
+    background-color: #020d53;
+    padding: 20px;
+    width: 60vw;
+    text-align: center;
+}
+
+.program-finder-box h1{
+    color: white;
+    font-weight: bold;
+    /* font-size: 30px; */
+}
+
+.program-finder-search{
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}

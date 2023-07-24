@@ -1,0 +1,54 @@
+.single-course-description-main-div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: 50px; */
+}
+
+.course-name-img img{
+    max-width: 50%;
+    height: auto;
+}
+
+
+
+.join-course .join{
+    background-color: #020D53;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.join-course{
+    margin-left: 20px;
+}
+
+.join-course .form{
+    background-color: #020D53;
+    padding: 40px;
+}
+
+.join-course .form .name{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.join-course .form input{
+    display: inline;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    height: 50px;
+}
+
+.join-course .form .btn{
+    background-color: #FFCC00;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+}

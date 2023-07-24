@@ -1,0 +1,11 @@
+.make-different-align-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.different-video{
+    width: 80vw;
+    height: 400px;
+    background-color: #020d53 ;
+}

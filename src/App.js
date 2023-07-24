@@ -1,24 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { AdmissionPage } from './Pages/Admission';
+import { ContactPage } from './Pages/Contact';
+import { Programs } from './Pages/Programs';
+import { Courses } from './Pages/Courses';
+import { Challenges } from './Pages/Challenges';
+import { SingleChallenge } from './Pages/SingleChallenge';
+import { HomePage } from './Pages/Home';
+import { SingleCourse } from './Pages/SingleCourse';
+import { AboutPage } from './Pages/About';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path='/' element={<HomePage />}></Route>
+          <Route path='/admission' element={<AdmissionPage />}></Route>
+          <Route path='/contact' element={<ContactPage />}></Route>
+          <Route path='/programs' element={<Programs />}></Route>
+          <Route path='/courses' element={<Courses />}></Route>
+          <Route path='/challenges' element={<Challenges />}></Route>
+          <Route path='/single-challenge' element={<SingleChallenge />}></Route>
+          <Route path='/single-course' element={<SingleCourse />}></Route>
+          <Route path='/about' element={<AboutPage />}></Route>
+        </Routes>
+      </Router>
+
+    </>
   );
 }
 

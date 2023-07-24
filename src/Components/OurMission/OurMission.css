@@ -1,0 +1,23 @@
+.our-mission-main-div{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    /* width: 80%; */
+    /* justify-content: space-between; */
+}
+
+.our-mission-main-div img{
+    max-width: 300px;
+    height: auto;
+}
+
+.our-mission-main-div .content{
+    padding: 30px;
+    background-color: #F7F8FA   ;
+}
+
+.our-mission-main-div .content p {
+    max-width: 400px;
+}

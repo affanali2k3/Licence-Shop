@@ -1,0 +1,38 @@
+.blog-podcast-video{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.read-listen-watch-main-block h1{
+  text-align: center;
+}
+.blog-podcast-video .image-container{
+  margin: 10px;
+}
+.read-listen-watch-main-block .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  .read-listen-watch-main-block img{
+    margin: 20px;
+  max-width: 90%;
+  display: block;
+  height: auto;
+    filter: brightness(40%);
+  }
+.read-listen-watch-main-block  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+.read-listen-watch-main-block  .text-overlay p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 40px;
+  }

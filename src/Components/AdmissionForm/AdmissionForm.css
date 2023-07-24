@@ -1,0 +1,29 @@
+.align-div-admission-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.align-div-admission-form h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.align-div-admission-form input[type=text]{
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 260px;
+}
+
+.agree-terms{
+    display: flex;
+    /* justify-content: ; */
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.agree-terms p{
+    margin-left: 10px;
+}

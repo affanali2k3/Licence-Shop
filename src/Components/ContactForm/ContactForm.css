@@ -1,0 +1,31 @@
+.contact-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #D9D9D9;
+    padding: 40px;
+}
+
+.contact-box input{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contact-box .subject{
+    width: 100%;
+}
+.contact-box textarea{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-box .button-div{
+    display: flex;
+    justify-content: end;
+}
+.contact-box .name-email{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* width: 100%; */
+}

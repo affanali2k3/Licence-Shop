@@ -1,0 +1,33 @@
+.what-you-learn-main-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.what-you-learn-main-div .what-you-learn-content h3{
+
+    font-size: 40px;
+    max-width: 400px;
+}
+.what-you-learn-main-div .what-you-learn-content{
+    padding: 30px;
+    background-color: #F7F8FA;
+}
+.what-you-learn-main-div .what-you-learn-content .para{
+    display: flex;
+    /* justify-content: s; */
+}
+.what-you-learn-main-div .learn-point .line{
+    width: 2px;
+    /* height: 20px; */
+    background-color: black;
+}
+
+.what-you-learn-main-div .learn-point p{
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+.what-you-learn-main-div .learn-point h4{
+    text-align: start;
+}

@@ -1,0 +1,28 @@
+.main-block{
+    text-align: center;
+}
+.my-story-align-div{
+    text-align: start;
+}
+.my-story-align-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.my-story-img{
+    height: 200px;
+    width: 200px;
+}
+
+.my-story-content{
+    padding-left: 20px;
+    /* padding: 20px; */
+}
+.my-story-content h4{
+    margin: 0;
+}
+
+.my-story-content p{
+    width: 300px;
+}

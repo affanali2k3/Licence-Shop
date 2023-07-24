@@ -1,0 +1,28 @@
+.card-upper-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: #020D53;
+    
+}
+
+.course-card{
+    margin: 20px;
+}
+
+.course-card h2{
+    margin: 0;
+}
+
+.course-circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.course-lower-div{
+    background-color:#D9D9D9;
+    padding: 20px;
+}
