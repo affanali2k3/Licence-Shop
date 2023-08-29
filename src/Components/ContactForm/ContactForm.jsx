@@ -17,9 +17,9 @@ export const ContactForm = () => {
                 <div>
                     <input type="text" className="subject" placeholder="Subject"></input>
                 </div>
-                <textarea placeholder="Message" rows={10}></textarea>
+                <textarea className='message' placeholder="Message" rows={10}></textarea>
                 <div className="button-div">
-                    <OutlineButton color={"black"} text={"SEND"}></OutlineButton>
+                    <OutlineButton className='contact-box-button' color={"black"} text={"SEND"} horizontalPadding={'90px'} ></OutlineButton>
                 </div>
             </div>
         </div>)

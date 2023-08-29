@@ -5,6 +5,8 @@ import { SecondPage } from '../Components/SecondPage/SecondPage';
 import challengesPageBackground from '../images/challenges-background.png'
 import { GuaranteeSuccess } from "../Components/GuaranteeSuccess/GuaranteeSuccess";
 import { ChallengesDisplay } from "../Components/ChallengesDisplay/ChallengesDisplay";
+import { Footer } from "../Components/Footer/Footer";
+import { NewsLetter } from "../Components/NewsLetter/NewsLetter";
 
 export const Challenges = () => {
     return (
@@ -14,6 +16,8 @@ export const Challenges = () => {
             <SecondPage></SecondPage>
             <GuaranteeSuccess></GuaranteeSuccess>
             <ChallengesDisplay></ChallengesDisplay>
+            <NewsLetter></NewsLetter>
+            <Footer></Footer>
         </>
     )
 }

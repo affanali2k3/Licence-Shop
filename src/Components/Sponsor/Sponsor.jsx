@@ -1,5 +1,5 @@
 import React from "react";
-import sponsorImage from './sponsors.png'
+import sponsorImage from './sponsor.png'
 import './Sponsor.css'
 
 export const Sponsor = () => {

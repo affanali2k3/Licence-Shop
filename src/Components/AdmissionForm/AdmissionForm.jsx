@@ -18,7 +18,7 @@ export const AdmissionForm = () => {
                     <input type="checkbox"></input>
                     <p>I agree to all the terms and conditions</p>
                 </div>
-                <OutlineButton color={"black"} text={"SUBMIT FORM"}></OutlineButton>
+                <OutlineButton color={"black"} text={"SUBMIT FORM"} horizontalPadding={'90px'}></OutlineButton>
             </div>
         </div>
     )

@@ -4,6 +4,7 @@
     height: 400px;
     overflow: hidden;
     margin: 30px;
+    flex: 40%;
   }
   
   .challenge-card img {

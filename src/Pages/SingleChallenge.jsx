@@ -5,6 +5,8 @@ import { SecondPage } from '../Components/SecondPage/SecondPage';
 import { DailyChallengeHolder } from '../Components/DailyChallengeHolder/DailyChallengeHolder'
 import challengesPageBackground from '../images/challenges-background.png';
 import { ChallengeIntro } from "../Components/ChallengeIntro/ChallengeIntro";
+import { Footer } from "../Components/Footer/Footer";
+import { NewsLetter } from "../Components/NewsLetter/NewsLetter";
 
 export const SingleChallenge = () => {
     return (
@@ -14,6 +16,8 @@ export const SingleChallenge = () => {
             <SecondPage></SecondPage>
             <ChallengeIntro></ChallengeIntro>
             <DailyChallengeHolder></DailyChallengeHolder>
+            <NewsLetter></NewsLetter>
+            <Footer></Footer>
         </>
     )
 }

@@ -17,6 +17,12 @@
     padding: 30px;
     background-color: #F7F8FA   ;
 }
+.our-mission-main-div .content h2{
+    font-size: 40px;
+}
+.our-mission-main-div .content p{
+    font-size: 20px;
+}
 
 .our-mission-main-div .content p {
     max-width: 400px;

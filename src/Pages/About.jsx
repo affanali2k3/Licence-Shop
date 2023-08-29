@@ -5,6 +5,8 @@ import { SecondPage } from '../Components/SecondPage/SecondPage';
 import { OurMission } from '../Components/OurMission/OurMission';
 import { WhatYouWillLearn } from '../Components/WhatYouWillLearn/WhatYouWillLearn'
 import aboutPageBackground from '../images/about-background.png'
+import { Footer } from "../Components/Footer/Footer";
+import { NewsLetter } from "../Components/NewsLetter/NewsLetter";
 
 export const AboutPage = () => {
     return (
@@ -13,7 +15,9 @@ export const AboutPage = () => {
             <FirstPage backgroundImageUrl={aboutPageBackground} mainTitle={'About Us'}></FirstPage>
             <SecondPage></SecondPage>
             <OurMission></OurMission>
-            <WhatYouWillLearn></WhatYouWillLearn>
+            <WhatYouWillLearn title={'WHY CHOOSE US?'}></WhatYouWillLearn>
+            <NewsLetter></NewsLetter>
+            <Footer></Footer>
         </>
     )
 }

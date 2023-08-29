@@ -6,16 +6,32 @@
     padding: 40px;
 }
 
+.contact-box h2{
+    font-size: 40px;
+}
+.contact-box p{
+    font-size: 20px;
+}
+
+
+
 .contact-box input{
+    border: 0.5px solid black;
     padding: 10px;
     margin-bottom: 10px;
+    background-color: white;
 }
 .contact-box .subject{
     width: 100%;
+    box-sizing: border-box;
 }
 .contact-box textarea{
     padding: 10px;
+    background-color: white;
+
     width: 100%;
+
+    box-sizing: border-box;
     margin-bottom: 20px;
 }
 

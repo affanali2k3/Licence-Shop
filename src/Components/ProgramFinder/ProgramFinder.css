@@ -20,6 +20,64 @@
 .program-finder-search{
     background-color: white;
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     padding: 10px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
+
+.program-finder-textfield{
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.program-finder-career-dropdown   {
+    position: relative;
+    display: inline-block;
+
+  }
+.program-finder-type-dropdown   {
+    position: relative;
+    display: inline-block;
+
+  }
+
+  
+  .program-finder-career-dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .program-finder-type-dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .program-finder-career-dropdown:hover .program-finder-career-dropdown-content   {
+    display: block;
+  }
+  .program-finder-type-dropdown:hover .program-finder-type-dropdown-content   {
+    display: block;
+  }
+
+  @media only screen and (max-width: 550px) {
+    .program-finder-career-dropdown {
+     width: 25%;
+    }
+    
+    .program-finder-type-dropdown {
+     width: 25%;
+    }
+    
+  }

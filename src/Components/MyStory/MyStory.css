@@ -1,7 +1,10 @@
 .main-block{
     text-align: center;
 }
-.my-story-align-div{
+.my-story-align-div h4{
+    text-align: start;
+}
+.my-story-align-div p{
     text-align: start;
 }
 .my-story-align-div{
@@ -11,7 +14,7 @@
 }
 
 .my-story-img{
-    height: 200px;
+    height: auto;
     width: 200px;
 }
 
@@ -26,3 +29,9 @@
 .my-story-content p{
     width: 300px;
 }
+
+@media only screen and (max-width: 520px) {
+    .my-story-content{
+        margin-top: 30px;
+    }
+  }

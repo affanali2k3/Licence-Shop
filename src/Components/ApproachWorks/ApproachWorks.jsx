@@ -14,15 +14,23 @@ import icon9 from './images/9.png'
 export const ApproachWorks = () => {
     return (
         <div className="approach-works-main-div">
-            <ApproachWorksCard imageUrl={icon1}></ApproachWorksCard>
-            <ApproachWorksCard imageUrl={icon2}></ApproachWorksCard>
-            <ApproachWorksCard imageUrl={icon3}></ApproachWorksCard>
-            <ApproachWorksCard imageUrl={icon4}></ApproachWorksCard>
-            <ApproachWorksCard imageUrl={icon5}></ApproachWorksCard>
-            <ApproachWorksCard imageUrl={icon6}></ApproachWorksCard>
-            <ApproachWorksCard imageUrl={icon7}></ApproachWorksCard>
-            <ApproachWorksCard imageUrl={icon8}></ApproachWorksCard>
-            <ApproachWorksCard imageUrl={icon9}></ApproachWorksCard>
+            <h1>Why Our Approach Works</h1>
+            <div className="another">
+                <div className="approach-works-align-div">
+                    <div className="approach-works-content-div">
+                        <ApproachWorksCard imageUrl={icon1}></ApproachWorksCard>
+                        <ApproachWorksCard imageUrl={icon2}></ApproachWorksCard>
+                        <ApproachWorksCard imageUrl={icon3}></ApproachWorksCard>
+                        <ApproachWorksCard imageUrl={icon4}></ApproachWorksCard>
+                        <ApproachWorksCard imageUrl={icon5}></ApproachWorksCard>
+                        <ApproachWorksCard imageUrl={icon6}></ApproachWorksCard>
+                        <ApproachWorksCard imageUrl={icon7}></ApproachWorksCard>
+                        <ApproachWorksCard imageUrl={icon8}></ApproachWorksCard>
+                        <ApproachWorksCard imageUrl={icon9}></ApproachWorksCard>
+                    </div>
+                </div>
+            </div>
         </div>
+
     )
 }

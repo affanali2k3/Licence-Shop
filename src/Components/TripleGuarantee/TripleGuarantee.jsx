@@ -12,6 +12,9 @@ export const TripleGuarantee = () => {
                 <p>2. Six-figure income in the first year</p>
                 <p>3. 24/7 customer support</p>
             </div>
+            {/* <div className="triple-guarantee-button-div">
+                <OutlineButton text={'READ MORE'} color={'black'}></OutlineButton>
+            </div> */}
         </div>
     )
 }

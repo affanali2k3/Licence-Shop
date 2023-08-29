@@ -7,6 +7,9 @@ import { AboutCourse } from '../Components/AboutCourse/AboutCourse'
 import { WhatYouWillLearn } from '../Components/WhatYouWillLearn/WhatYouWillLearn'
 import { CourseEligibility } from '../Components/CourseEligibility/CourseEligibility'
 import singleCourseBackground from '../images/home-background.png'
+import { Footer } from "../Components/Footer/Footer";
+import { NewsLetter } from "../Components/NewsLetter/NewsLetter";
+import { CourseFreeTrial } from '../Components/CourseFreeTrial/CourseFreeTrial';
 
 export const SingleCourse = () => {
     return (
@@ -16,7 +19,10 @@ export const SingleCourse = () => {
             <SecondPage></SecondPage>
             <SingleCourseDescription></SingleCourseDescription>
             <AboutCourse></AboutCourse>
-            <WhatYouWillLearn></WhatYouWillLearn>
+            <WhatYouWillLearn title={'What You Will Learn In This Course'}></WhatYouWillLearn>
             <CourseEligibility></CourseEligibility>
+            <CourseFreeTrial></CourseFreeTrial>
+            <NewsLetter></NewsLetter>
+            <Footer></Footer>
         </>)
 }

@@ -1,6 +1,8 @@
 .course-eligibility-main-div {
   display: flex;
   justify-content: center;
+  margin-bottom: 200px;
+  padding: 20px;
 }
 .course-eligibility-main-div .table-container{
   max-width: 600px;

@@ -5,6 +5,8 @@ import { SecondPage } from '../Components/SecondPage/SecondPage';
 import contactPageBackground from '../images/contact-background.png'
 import { ContactForm } from "../Components/ContactForm/ContactForm";
 import { GoogleMap } from "../Components/GoogleMap/GoogleMap";
+import { Footer } from "../Components/Footer/Footer";
+import { NewsLetter } from "../Components/NewsLetter/NewsLetter";
 
 export const ContactPage = () => {
     return (
@@ -14,6 +16,8 @@ export const ContactPage = () => {
             <SecondPage></SecondPage>
             <ContactForm></ContactForm>
             <GoogleMap></GoogleMap>
+            <NewsLetter></NewsLetter>
+            <Footer></Footer>
         </>
     )
 }

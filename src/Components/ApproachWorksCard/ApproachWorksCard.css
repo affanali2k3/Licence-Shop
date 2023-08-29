@@ -2,7 +2,15 @@
     width: 200px;
 }
 .approach-card-main-div{
-
+    
+    flex: 40%;
     margin: 20px;
 }
 
+@media only screen and (max-width: 480px) {
+    .approach-card-main-div{
+        flex: 0;
+        margin: 20px;
+    }
+    
+  }

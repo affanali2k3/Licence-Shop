@@ -11,6 +11,8 @@ import { ChallengesDisplayHome } from "../Components/ChallengesDisplayHome/Chall
 import { MyStory } from "../Components/MyStory/MyStory";
 import { VideoTestimonials } from '../Components/VideoTestimonials/VideoTestimonials'
 import { ReadListenWatch } from '../Components/ReadListenWatch/ReadListenWatch'
+import { Footer } from "../Components/Footer/Footer";
+import { NewsLetter } from "../Components/NewsLetter/NewsLetter";
 
 export const HomePage = () => {
     return (
@@ -27,6 +29,8 @@ export const HomePage = () => {
             <MyStory></MyStory>
             <VideoTestimonials></VideoTestimonials>
             <ReadListenWatch></ReadListenWatch>
+            <NewsLetter></NewsLetter>
+            <Footer></Footer>
         </>
     )
 }

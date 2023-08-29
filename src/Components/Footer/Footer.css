@@ -1,0 +1,23 @@
+.footer-main-div{
+    background-color: #020D53;
+    color: white;
+    padding: 40px;
+    margin-top: 200px;
+}
+
+.footer-main-div{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-align-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px
+}
+
+@media only screen and (max-width: 560px) {
+  .footer-align-div{
+    gap: 40px;
+  }
+  }

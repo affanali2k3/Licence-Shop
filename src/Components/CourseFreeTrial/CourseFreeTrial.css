@@ -1,0 +1,37 @@
+.course-free-trial-main-div{
+    display: flex;
+    justify-content: center;
+  
+    margin-bottom: 200px;
+}
+
+.course-free-trial-align-div{
+    background-color: #020D53;
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+.course-free-trial-align-div h2{
+  text-align: center;
+}
+.course-free-trial-align-div p{
+  max-width: 800px;
+}
+
+.course-free-trial-buttons{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.course-free-trial-buttons div{
+   background-color:    #FFCC00;
+   color: black;
+   padding-left: 180px;
+   padding-right: 180px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-radius: 10px;
+}
+/* .course-free-trial-buttons h3{
+   margin: 0;
+} */

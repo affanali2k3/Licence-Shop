@@ -3,6 +3,11 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 200px;
+}
+.align-div-admission-form input{
+    background-color: #F0EEEE;
+    padding: 20px;
 }
 
 .align-div-admission-form h2{
@@ -13,7 +18,6 @@
 .align-div-admission-form input[type=text]{
     display: block;
     margin-bottom: 10px;
-    padding: 10px;
     width: 260px;
 }
 

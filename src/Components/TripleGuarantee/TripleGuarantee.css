@@ -2,8 +2,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 60px;
 }
 
 .align-div-triple-guarantee img{
     width: 250px;
+}
+
+.triple-guarantee-button-div{
+    width: block;
 }

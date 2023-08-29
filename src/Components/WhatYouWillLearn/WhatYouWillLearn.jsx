@@ -2,11 +2,11 @@ import React from 'react'
 import whatYouLearnImg from './what-you-learn.png'
 import './WhatYouWillLearn.css'
 
-export const WhatYouWillLearn = () => {
+export const WhatYouWillLearn = ({ title }) => {
     return (
         <div className="what-you-learn-main-div">
             <div className="what-you-learn-content">
-                <h3>WHAT YOU WILL LEARN IN THIS COURSE:</h3>
+                <h3>{title}</h3>
                 <div className="learn-point">
                     <h4>CONTENT AND PLATFORM ARE UP TO DATE</h4>
                     <div className="para">

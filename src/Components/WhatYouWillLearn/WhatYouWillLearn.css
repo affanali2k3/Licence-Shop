@@ -2,6 +2,10 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-bottom: 200px;
+}
+.what-you-learn-main-div img{
+    max-width: 80%;
 }
 
 .what-you-learn-main-div .what-you-learn-content h3{

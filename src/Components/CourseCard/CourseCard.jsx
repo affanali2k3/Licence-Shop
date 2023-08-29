@@ -11,8 +11,8 @@ export const CourseCard = () => {
             <div className="course-lower-div">
                 <h2>Course Name</h2>
                 <p>Through our exclusive online license preparation courses, learn real time from our experienced.</p>
-                <OutlineButton color={"black"} text={"Join Course"} marginLeft="0"></OutlineButton>
-                <OutlineButton color={"black"} text={"Wish List"}></OutlineButton>
+                <OutlineButton isPrimary={true} color={"black"} text={"Join Course"} marginLeft="0"></OutlineButton>
+                <OutlineButton className='wish-list' color={"black"} text={"Wish List"} mar={'10px'}></OutlineButton>
             </div>
         </div>
     )

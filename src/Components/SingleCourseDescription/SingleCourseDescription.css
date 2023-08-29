@@ -2,12 +2,22 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* margin: 50px; */
+    margin-top: 50px;
 }
 
 .course-name-img img{
     max-width: 50%;
     height: auto;
+}
+.course-name-img{
+    padding: 20px;
+}
+.course-name h2{
+    font-size: 40px;
+}
+.course-name p{
+    font-size: 20px;
+    max-width: 400px;
 }
 
 
@@ -21,6 +31,7 @@
 
 .join-course{
     margin-left: 20px;
+    padding: 20px;
 }
 
 .join-course .form{
@@ -52,3 +63,9 @@
     width: 100%;
     border-radius: 20px;
 }
+
+@media only screen and (max-width: 1200px) {
+    .join-course{
+        margin-left: 0;
+    }
+  }

@@ -1,0 +1,11 @@
+.about-course-align-div{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.about-course-main-div h1{
+    text-align: center;
+
+}

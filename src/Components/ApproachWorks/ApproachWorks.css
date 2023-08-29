@@ -1,9 +1,28 @@
 .approach-works-main-div{
     background-color: #020d53;
     color: white;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+.another{
+    display: flex;
+    justify-content: center;
+}
+
+.approach-works-align-div{
+    
+    width: 500px;
+}
+.approach-works-main-div h1{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.approach-works-content-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+

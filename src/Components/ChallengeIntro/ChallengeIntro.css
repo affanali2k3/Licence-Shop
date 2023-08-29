@@ -1,3 +1,9 @@
 .challenge-intro{
     text-align: center;
 }
+.challenge-intro h2{
+   font-size: 40px;
+}
+.challenge-intro p{
+   font-size: 20px;
+}
