@@ -1,0 +1,24 @@
+
+.course-faq-main-div{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.course-faq-align-div{
+    width: 1200px;
+}
+
+.question-div{
+    background-color: #D9D9D9;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.question-div-alternate{
+    background-color: #EAEAEA;
+}
+
+.course-faq-align-div h1{
+    text-align: center;
+}

@@ -20,8 +20,9 @@
 
 .course-free-trial-buttons{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    gap:20px
 }
 .course-free-trial-buttons div{
    background-color:    #FFCC00;
@@ -35,3 +36,16 @@
 /* .course-free-trial-buttons h3{
    margin: 0;
 } */
+
+@media screen and (max-width: 900px) {
+  .course-free-trial-buttons{
+    justify-content: center;
+}
+}
+@media screen and (max-width: 740px) {
+  
+.course-free-trial-buttons div{
+  padding-left: 120px;
+   padding-right: 120px;
+}
+}
